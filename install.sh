@@ -318,7 +318,7 @@ sed -i "s/sspanelv2/mudbjson/g" /usr/local/shadowsocksr/userapiconfig.py
 sed -i "s/UPDATE_TIME = 60/UPDATE_TIME = 10/g" /usr/local/shadowsocksr/userapiconfig.py
 sed -i "s/SERVER_PUB_ADDR = '${nowip}'/SERVER_PUB_ADDR = '$(wget -qO- -t1 -T2 ipinfo.io/ip)'/" /usr/local/shadowsocksr/userapiconfig.py
 #INstall Success
-read -t 20 -p "输入与您主机绑定的域名(请在20秒内输入，超时将跳过本步骤.默认填入本机IP): " ipname
+read -t 20 -p "输入与您主机绑定的域名(请在20秒内输入，超时将跳过本步骤。默认填入本机IP): " ipname
 if [[ -z ${ipname} ]];then
     ipname=$(wget -qO- -t1 -T2 ipinfo.io/ip)
 fi
@@ -343,10 +343,10 @@ if [[ $1 == develop ]];then
         	nohup bash servercheck.sh run 2>/dev/null &
         	PID=$(ps -ef |grep -v grep | grep "bash" | grep "servercheck.sh" | grep "run" | awk '{print $2}')
         	if [[ -z ${PID} ]];then
-            	echo "程序启动失败,请联系作者"
+            	echo "程序启动失败"
             fi
         else
-        	echo "你居然拒绝了T.T"
+        	echo "拒绝"
         fi
     fi
     checkcron=$(crontab -l 2>/dev/null | grep "timelimit.sh")
@@ -372,8 +372,7 @@ echo '安装完成！输入 ssr 即可使用本程序~'
 if [[ ${check} != "yes" ]] ;then
         echo "如果你执行 ssr 提示找不到命令，请尝试退出并重新登录来解决"
 fi
-echo '原作者已经停止本脚本更新，此版本为作者删除项目前最后一个版本魔改而来'
-echo '不喜勿喷!'
-echo '谨慎使用！仅供研究！'
-echo '谨慎使用！仅供研究！'
-echo '谨慎使用！仅供研究！'
+echo ''
+echo '禁止商用！仅供研究！'
+echo '禁止商用！仅供研究！'
+echo '禁止商用！仅供研究！'
