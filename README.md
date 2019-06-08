@@ -41,7 +41,7 @@
 
 ![](https://github.com/zyh001/zyh001.github.com/raw/master/images/now1.png) ![](https://github.com/zyh001/zyh001.github.com/blob/master/images/now2.png)
 
-正在开发界面：
+将来开发界面：
 ![](https://github.com/zyh001/zyh001.github.com/blob/master/images/future.png)
 
 ## 脚本安全性声明 ##
@@ -49,13 +49,13 @@
 
 
 ## 安装&更新 ##
-    wget -q -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/SSR-Bash-Python/master/install.sh && bash install.sh
+    wget -q -N --no-check-certificate https://raw.githubusercontent.com/junnyhaha/Chine-Bash-Python/master/install.sh && bash install.sh
 
 ## 系统自检 ##
-    wget -q -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/SSR-Bash-Python/master/self-check.sh && bash self-check.sh
+    wget -q -N --no-check-certificate https://raw.githubusercontent.com/junnyhaha/Chine-Bash-Python/master/self-check.sh && bash self-check.sh
 
 ## 卸载 ##
-    wget -q -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/SSR-Bash-Python/master/install.sh && bash install.sh uninstall
+    wget -q -N --no-check-certificate https://raw.githubusercontent.com/junnyhaha/Chine-Bash-Python/master/install.sh && bash install.sh uninstall
 
 ## 离线安装 ##
     #此方法可用于网络情况不好，导致缺少文件的情况.亦可下载该脚本，用于备份
