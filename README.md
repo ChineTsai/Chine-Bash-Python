@@ -5,13 +5,13 @@
 
 ## 介绍 ##
 
-涉密数据加密传输系统，有效对抗政府对互联网的网络审查，基于Shell脚本和Python语言编写，集成多用户管理、流量限制、加密更改等基本操作。
+涉密数据加密传输，有效对抗中國政府对互联网的网络审查，基于Shell脚本和Python语言编写，集成多用户管理、流量限制、加密更改等基本操作。
 
-- 该版本将由本人开发和更新，同时保持所有代码完全开源！
-- 请谨慎使用，使用期间出现任何问题概不负责！！！！
-- 如果发现脚本bug，可以发issues，但不一定会去fix，多谢合作！
+- 该版本(1.9.8.1)将由本人update，同時加入交互界面，永達保持所有代码完全开源！
+- 请閣下谨慎使用，期间出现任何问题概不负责！！！！
+- 如果发现bug，可以发issues，但不一定会被fix，多謝合作！
 
-## 系统支持 ##
+## 系统支援 ##
 * Ubuntu 14
 * Ubuntu 16
 * Debian 7
@@ -20,6 +20,7 @@
 * CentOS 7
 
 ## 功能 ##
+- New：add交互式界面(developing)，可選
 - 全自动无人值守安装，服务端部署只需一条命令
 - 一键开启、关闭服务
 - 添加、删除、修改用户端口、密码和连接数限制
@@ -41,14 +42,14 @@
 
 ![](https://github.com/zyh001/zyh001.github.com/raw/master/images/now1.png) ![](https://github.com/zyh001/zyh001.github.com/blob/master/images/now2.png)
 
-将来开发界面：
+正在開發界面：
 ![](https://github.com/zyh001/zyh001.github.com/blob/master/images/future.png)
 
 ## 脚本安全性声明 ##
 **本脚本采用Shell和Python语言编写，所有代码完全开源。不存在所谓的后台或挖矿代码，不会对您的任何信息进行上传，并在各个方面充分考虑到数据安全性。关于二维码生成过程是通过pip安装[第三方软件包](https://github.com/lincolnloop/python-qrcode)，由第三方软件在服务器本地生成，生成的二维码链接也会自动销毁，不会上传任何信息。您的IP被封，或者您服务器出现不正常的负荷增高，与脚本本身没有任何关系，请您自行做好服务器安全维护工作，例如：不要使用弱密码、不要使用默认SSH端口，等等，防止被闲人爆破。**
 
 
-## 安装&更新 ##
+## 安装or更新 ##
     wget -q -N --no-check-certificate https://raw.githubusercontent.com/junnyhaha/Chine-Bash-Python/master/install.sh && bash install.sh
 
 ## 系统自检 ##
